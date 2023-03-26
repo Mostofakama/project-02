@@ -1,0 +1,259 @@
+body {
+    font-family: 'Golos Text', sans-serif;
+}
+
+/*-------------------------------------first section area-----------------------------------------------*/
+.background {
+    background-color: #87509c;
+}
+
+.ankor {
+    border-radius: 10px;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 0px 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.ankor:hover {
+    background: rgba(0, 0, 0, .2);
+    padding: 5px 15px;
+    margin: 0px 10px;
+    font-weight: 600;
+}
+
+.active {
+    background: rgba(0, 0, 0, .2);
+    padding: 5px 15px;
+    margin: 0px 10px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.first-section {
+    background-color: #87509c;
+    padding: 30px 0px;
+
+}
+
+.top {
+    padding: 100px 0px;
+}
+
+.text-area {
+    width: 80%;
+    text-align: center;
+}
+
+.text-area h2 {
+    font-size: 40px;
+    font-weight: 700;
+
+    color: #fff;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #eb7d4b;
+    --bs-btn-border-color: #eb7d4b;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #eb7d4b;
+    --bs-btn-hover-border-color: #eb7d4b;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #eb7d4b;
+    --bs-btn-active-border-color: #eb7d4b;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #eb7d4b;
+    --bs-btn-disabled-border-color: #eb7d4b;
+}
+
+.btn {
+    padding: 14px 25px;
+    display: inline-block;
+    margin-top: 30px;
+
+}
+
+/*---------------------------------------2nd section area--SERVICES WE PROVIDE-----------------------------------------------------*/
+.middle {
+    padding: 80px 0px;
+    background-color: #17c2a4;
+}
+
+.hier {
+    width: 10%;
+    border-top: 5px solid rgba(8, 8, 8, 0.925);
+    border-radius: 50px;
+}
+
+.text h2 {
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: 6px;
+    color: #fff;
+
+}
+
+.text p {
+    font-size: 19px;
+    color: #fff;
+
+}
+
+.cards {
+    padding-top: 34px;
+}
+
+
+
+.images img {
+    padding: 30px 40px;
+}
+
+.text2 h2 {
+    color: #fff;
+
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.text2 p {
+    color: #fff;
+    font-size: 15px;
+}
+
+.row {
+    padding-top: 40px;
+}
+
+
+
+
+
+
+.hgir {
+    border: 1px solid red;
+}
+
+/*---------------------------------------traam--------------------------------------------*/
+
+
+.text h2 {
+    color: #373c3f;
+}
+
+.text p {
+    color: #373c3f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.middle-area {
+    background-color: #e7f1f8;
+    padding: 80px 0px;
+}
+
+.image img {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+.text3 h2 {
+    font-size: 22px;
+    color: #373c3f;
+    margin-top: 10px;
+}
+
+.text3>a {
+    color: #30bae7;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+}
+
+.text3 p {
+    color: #373c3f;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.text3 span a {
+    color: #373c3f;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+
+.text3 span a:hover {
+    background-color: rgba(8, 8, 8, 0.5);
+}
+
+.text3 span {
+    display: block;
+}
+
+/*---------------------------slillls---------------------------*/
+.middle-skill {
+
+    background-color: #fff;
+    padding: 80px 0px;
+}
+
+/* ----------------------------------------protfoli------------------------------------------------- */
+.marign {
+    margin-top: 40px;
+}
+
+.middle-protfolio {
+    background-color: #ffdc9a;
+    padding: 80px 0px;
+}
+
+.nav-link {
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: #FFF;
+}
+
+.nav-link:hover {
+    background-color: rgba(0, 0, 0, .2);
+    color: #fff;
+}
+
+.last-btn {
+    margin: 20px auto;
+    display: block;
+    color: #17c1a4;
+}
+
+/*---------------------------------------------------- responsive------------------------------- */
+@media(max-width:593px) {
+
+
+    .text-area {
+        width: 100%;
+        text-align: center;
+    }
+
+    .text-area h2 {
+        font-size: 30px;
+        font-weight: 600;
+
+        color: #fff;
+    }
+}
