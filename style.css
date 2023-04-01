@@ -95,7 +95,7 @@ body {
 
 .text h2 {
     font-weight: 800;
-    font-size: 35px;
+    font-size: 30px;
     letter-spacing: 6px;
     color: #fff;
 
@@ -343,4 +343,6 @@ p {
 
         color: #fff;
     }
+
+
 }
